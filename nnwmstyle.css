@@ -1,0 +1,48 @@
+/*styleguide for NaNoWriMo: A Condensed Guide */
+
+
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic,700);
+
+body{
+    font-family: 'Libre Baskerville', serif;
+    color:#6c2e08;
+    background-image: url(images/background.jpg);
+    background-size: cover;
+}
+#navmenu{
+    background-image: url(images/nav_ribbon.png);
+    background-size: contain;
+    background-position: center;
+    height: 350px;
+    width: 95px;
+    list-style-type: none;
+    
+}
+#navmenu>li{
+    margin: 10px;
+}
+#content{
+    width: 700px;
+}
+#intro{
+    text-align: justify;
+    font-size: 24px;
+}
+#title{
+    color:#fcf6e5;
+}
+.navlink{
+   color:white;
+}
+.navlink:link{
+    text-decoration: none;     
+}
+.navlink:hover{
+    text-decoration: underline;
+}
+.navlink:active{
+    color:chocolate;
+}
+#navcurrent{
+    color:chocolate;
+}
