@@ -8,18 +8,38 @@ body{
     color:#6c2e08;
     background-image: url(images/background.jpg);
     background-size: cover;
+    width: 90%;
+}
+.header{
+    color:white;
+    float:left;
+    margin: 10px;
+}
+#title{
+    position: relative;
+    top: 30px;
+}
+#bookpage{
+    position: relative;
+    background-size: cover;
+    top: 10px;
 }
 #navmenu{
+    font-size: 20px;
     background-image: url(images/nav_ribbon.png);
     background-size: contain;
-    background-position: center;
+    position: absolute;
+    top: 130px;
+    left: 50px;
     height: 350px;
     width: 95px;
     list-style-type: none;
-    
+    margin: 0 auto;
+    z-index: 10;
 }
 #navmenu>li{
     margin: 10px;
+    float: left;
 }
 #content{
     width: 700px;
@@ -31,6 +51,17 @@ body{
 #title{
     color:#fcf6e5;
 }
+.external{
+    color:#00637f;
+    text-decoration: none;
+    font-weight: bold;
+}
+.external:visited{
+    color:#6a8287;
+}
+.external:hover{
+    color:#6fc5d7;
+}
 .navlink{
    color:white;
 }
@@ -40,9 +71,10 @@ body{
 .navlink:hover{
     text-decoration: underline;
 }
-.navlink:active{
-    color:chocolate;
-}
 #navcurrent{
     color:chocolate;
+}
+footer{
+    margin: 20px;
+    float: right;
 }
