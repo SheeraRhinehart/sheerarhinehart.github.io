@@ -21,20 +21,22 @@ body{
 }
 #bookpage{
     position: relative;
-    background-size: cover;
+    max-width:1200px;
     top: 10px;
+    margin: 0;
 }
 #navmenu{
     font-size: 20px;
     background-image: url(images/nav_ribbon.png);
     background-size: contain;
     position: absolute;
-    top: 130px;
+    top: 115px;
     left: 50px;
-    height: 350px;
-    width: 95px;
+    height: 335px;
+    width: 130px;
     list-style-type: none;
-    margin: 0 auto;
+    margin: 0;
+    padding: 0;
     z-index: 10;
 }
 #navmenu>li{
@@ -77,4 +79,9 @@ body{
 footer{
     margin: 20px;
     float: right;
+}
+#content{
+    position:absolute;
+    top:200px;
+    left:450px
 }
