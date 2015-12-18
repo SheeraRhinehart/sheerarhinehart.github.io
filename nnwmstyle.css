@@ -85,3 +85,15 @@ footer{
     top:200px;
     left:450px
 }
+#bioimg{
+    float:left;
+    padding: 15px;
+}
+#biotext{
+    position: relative;
+    margin: 35px;
+}
+.bio{
+    padding: 10px;
+    margin: 10px;
+}
