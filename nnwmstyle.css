@@ -8,16 +8,13 @@ body{
     color:#6c2e08;
     background-image: url(images/background.jpg);
     background-size: cover;
-    width: 90%;
+    width: 95%;
+    margin-left: 0;
 }
 .header{
     color:white;
     float:left;
     margin: 10px;
-}
-#title{
-    position: relative;
-    top: 30px;
 }
 #bookpage{
     position: relative;
@@ -45,13 +42,13 @@ body{
 }
 #content{
     width: 700px;
+    position:absolute;
+    top:200px;
+    left:450px
 }
 #intro{
     text-align: justify;
     font-size: 24px;
-}
-#title{
-    color:#fcf6e5;
 }
 .external{
     color:#00637f;
@@ -80,11 +77,6 @@ footer{
     margin: 20px;
     float: right;
 }
-#content{
-    position:absolute;
-    top:200px;
-    left:450px
-}
 #bioimg{
     float:left;
     padding: 15px;
@@ -96,4 +88,16 @@ footer{
 .bio{
     padding: 10px;
     margin: 10px;
+}
+.flourish{
+    padding: 10px;
+    position: relative;
+    left: 300px;
+}
+#homeimg{
+    width: 700px;
+}
+#nocontent{
+    position:relative;
+    left: 300px;
 }
